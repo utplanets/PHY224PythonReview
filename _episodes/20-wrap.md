@@ -11,11 +11,6 @@ keypoints:
 - "Python supports a large community within and outwith research."
 ---
 
-Leslie Lamport once said, "Writing is nature's way of showing you how sloppy your thinking is."
-The same is true of programming:
-many things that seem obvious when we're thinking about them
-turn out to be anything but when we have to explain them precisely.
-
 ## Python supports a large community within and outwith research.
 
 *   The [Python 3 documentation](https://docs.python.org/3/) covers the core language
