@@ -25,6 +25,9 @@ docker-serve :
 serve : lesson-md
 	${JEKYLL} serve
 
+notebook-server : 
+	jupyter notebook --notebook-dir=notebooks
+
 ## site             : build files but do not run a server.
 site : lesson-md
 	${JEKYLL} build

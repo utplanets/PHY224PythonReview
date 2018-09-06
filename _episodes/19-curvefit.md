@@ -1,5 +1,5 @@
 ---
-title: "Fitting data to models"
+title: "**Fitting data to models**"
 teaching: 40
 exercises: 20
 questions:
