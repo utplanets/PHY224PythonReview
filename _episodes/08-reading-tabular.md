@@ -16,7 +16,7 @@ keypoints:
 - "Use comments in your file to describe the contents."
 ---
 
-## Use the Numpy package to loaddata using the `loadtxt` command
+## Use the Numpy package to load data using the `loadtxt` command
 
 * Numpy provides the function loadtxt to read and parse numeric data from a text file.
 * The file can be delimited with commas (a 'comma separated file'), tabs, or other common delimiters

@@ -82,29 +82,6 @@ NameError: name 'last_name' is not defined
 *   The last line of an error message is usually the most informative.
 *   We will look at error messages in detail [later]({{ page.root }}/15-scope/#reading-error-messages).
 
-> ## Variables Persist Between Cells
->
-> Be aware that it is the order of **execution** of cells that is important in a Jupyter notebook, not the order
-> in which they appear. Python will remember **all** the code that was run previously, including any variables you have
-> defined, irrespective of the order in the notebook. Therefore if you define variables lower down the notebook and then
-> (re)run cells further up, those defined further down will still be present. As an example, create 2 cells with the
-> following content, in this order:
->
-> ~~~
-> print(myval)
-> ~~~
-> {: .python}
->
-> ~~~
-> myval = 1
-> ~~~
-> {: .python}
->
-> If you execute this in order, the first cell will give an error. However, if you run the first cell **after** the second
-> cell it will print out ‘1’. To prevent confusion, it can be helpful to use the `Kernel` -> `Restart & Run All` option which
-> clears the interpreter and runs everything from a clean slate going top to bottom.
-{: .callout}
-
 ## Variables can be used in calculations.
 
 *   We can use variables in calculations just as if they were values.
@@ -200,37 +177,6 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 
 *   Use meaningful variable names to help other people understand what the program does.
 *   The most important "other person" is your future self.
-
-> ## Swapping Values
->
-> Fill the table showing the values of the variables in this program
-> **after** each statement is executed.
->
-> ~~~
-> # Command  # Value of x   # Value of y   # Value of swap #
-> x = 1.0    #              #              #               #
-> y = 3.0    #              #              #               #
-> swap = x   #              #              #               #
-> x = y      #              #              #               #
-> y = swap   #              #              #               #
-> ~~~
-> {: .python}
-> > ## Solution
-> >
-> > ~~~
-> > # Command  # Value of x   # Value of y   # Value of swap #
-> > x = 1.0    # 1.0          # not defined  # not defined   #
-> > y = 3.0    # 1.0          # 3.0          # not defined   #
-> > swap = x   # 1.0          # 3.0          # 1.0           #
-> > x = y      # 3.0          # 3.0          # 1.0           #
-> > y = swap   # 3.0          # 1.0          # 1.0           #
-> > ~~~
-> > {: .output}
-> > 
-> > These three lines exchange the values in `x` and `y` using the `swap`
-> > variable for temporary storage. This is a fairly common programming idiom.
->{: .solution}
-{: .challenge}
 
 > ## Predicting Values
 >
