@@ -73,11 +73,12 @@ If you run into any difficulties, please request help before the workshop begins
 
 ## Getting the Data
 
-The data we will be using is taken from the [gapminder][gapminder] dataset.
+The data we will be using is generated for this class
 To obtain it, download and unzip the file 
-[python-novice-gapminder-data.zip]({{page.root}}/files/python-novice-gapminder-data.zip).
+[data.zip]({{page.root}}/files/data.zip).
 In order to follow the presented material, you should launch a Jupyter 
 notebook in the root directory (see [Starting Python](#Starting-Python)).
+The jupyter notebooks for the class can be downloaded from [notebooks.zip]({{page.root}}/files/notebooks.zip).
 
 ## Starting Python
 
